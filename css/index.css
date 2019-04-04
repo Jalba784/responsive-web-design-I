@@ -264,3 +264,55 @@ small {
          justify-content: center;
      }
 }
+
+/*--------------------------------------------
+    Specifications for mobile-view
+----------------------------------------------*/
+@media (max-width: 500px) {
+    body {
+        padding: 30px;
+        margin: 0 auto;
+        width: 500px;
+    }
+
+    .logo {
+        display: block;
+        padding: 0px 0px 0px 0px;
+        margin-bottom: 20px;
+    }
+    .first-nav {
+        border-top: 1px solid black;
+    }
+    nav a {
+        display: block;
+        border-bottom: 1px solid black;
+        width: 500px;
+        height: 50px;
+        font-size: 20px;
+        text-align: center;
+        padding: 20px 0px 40px 0px;
+    }
+    .top-body-text {
+        display: flex;
+        flex-direction: column;
+        /*width: 500px;*/
+    }
+    .top-body-text p {
+        width: 450px;
+        font-size: 16px;
+    }
+    .bottom-body-text {
+        display: flex;
+        flex-direction: column;
+    }
+    .bottom-body-text p {
+        width: 450px;
+        font-size: 16px;
+    }
+    .copyright {
+        width: 300px;
+    }
+   address p {
+       font-size: 16px;
+   }
+}
